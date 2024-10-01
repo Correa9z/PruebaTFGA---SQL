@@ -14,5 +14,5 @@ acciones tales como cargue y actualización masivo, además de busquedas con res
 
 ## Configuración Base de Datos
 1. Se debe de dirigir hacia la ruta del proyecto infra/conexion_bd.py
-2. Se debe de referenciar la linea de codigo ```mysql.connector.connect(host='localhost', port='3306',user='root',password='',database='pruebafga')```
+2. Se debe de referenciar la linea de codigo ```mysql.connector.connect(host='localhost', port='3306',user='root',password='',database='pruebafga')``` 
 3. Se debe de actualizar los argumentos de la función como el host, port, user, password y claramente el database.
