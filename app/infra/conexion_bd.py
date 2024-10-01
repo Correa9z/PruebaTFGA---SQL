@@ -6,7 +6,7 @@ class ConexionBd:
 
     def conectar_bd(self):
         try:
-            conexion = mysql.connector.connect(host='localhost', port='3306',user='root',password='',database='correa')
+            conexion = mysql.connector.connect(host='localhost', port='3306',user='root',password='',database='pruebafga')
 
             cursor = conexion.cursor()
 
